@@ -1,6 +1,6 @@
 local DatastoreService = game:GetService("DataStoreService")
 local stageStore = DatastoreService:GetDataStore("PlayerStageDataStore")
-
+--create a folder in workspace called CheckPoints. then create a script and name it CheckpointScript. Then add a part and name it 0 then duplicate and continue the succession before continuing to add this code. 
 function plrToStage(plr)
 	repeat wait() until plr.Character.HumanoidRootPart
 	
